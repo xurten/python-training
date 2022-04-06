@@ -14,3 +14,4 @@ import array as arr
 my_array = arr.array('i', [1,2,3,4,5])
 print(my_array[::-1])
 print([i for i in range(20)][::-1])
+
