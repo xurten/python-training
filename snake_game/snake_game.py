@@ -10,7 +10,7 @@ def draw_grid(w, rows, surface):
 
     x = 0
     y = 0
-    for l in range(rows):
+    for line in range(rows):
         x = x + size_between_lines
         y = y + size_between_lines
 
