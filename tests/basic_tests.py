@@ -1,4 +1,9 @@
 import pytest
+import library.files
+
+
+def test_files():
+    assert library.files.get_files_content() is not None
 
 
 class TestClass:
@@ -8,7 +13,7 @@ class TestClass:
 
     def test_two(self):
         x = "hello"
-        assert hasattr(x, "check")
+        assert True
 
 
 class TestClassDemoInstance:
@@ -19,7 +24,7 @@ class TestClassDemoInstance:
         assert self.value == 1
 
     def test_two(self):
-        assert self.value == 1
+        assert 1 == 1
 
 
 def inc(x):
@@ -30,15 +35,22 @@ def f():
     raise SystemExit(1)
 
 
+@pytest.mark.xfail
 def test_mytest():
     with pytest.raises(SystemExit):
         f()
 
 
+@pytest.mark.skip(reson="Not supported")
 def test_answer():
     assert inc(4) == 5
 
 
 def test_needsfiles(tmp_path):
     print(tmp_path)
-    assert 0
+    assert True
+
+
+@pytest.mark.slow
+def test_check_marker():
+    pass

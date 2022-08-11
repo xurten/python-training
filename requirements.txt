@@ -1,4 +1,4 @@
-request==2.26.00
+requests==2.27.1
 flake8==3.9.2
 tox==3.24.3
 pytest==6.2.5

@@ -58,7 +58,6 @@ if __name__ == '__main__':
     # new_str = ''.join(new_list)
     print(new_str)
 
-
     def replace_logic_operators(line):
         and_count = line.count(" && ")
         result = line
@@ -72,11 +71,6 @@ if __name__ == '__main__':
             or_count = result.count(" || ")
         return result
 
-
-    # n = input()
-    # for i in range(0, int(n)):
-    #     tmp = input()
-    #     print(replace_logic_operators(tmp))
 
 print("regex")
 regex_pattern = r"(.)"  # Do not delete 'r'.
