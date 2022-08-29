@@ -1,4 +1,5 @@
 # whats new in python3 all in all https://python-future.org/compatible_idioms.html
+# https://www.linkedin.com/learning/first-look-python-3-9/
 
 def merge_two_dictionaries():
     first_dictionary = {1: 'aaaa'}
