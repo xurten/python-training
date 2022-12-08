@@ -4,7 +4,7 @@ flavor_list = ['vanilla', 'chocolate', 'hazelnut', 'strawberry']
 
 
 # normal iteration
-def bad_iterate():
+def bad_iteration():
     for i in range(len(flavor_list)):
         flavor = flavor_list[i]
         print(f'{i + 1}: {flavor}')
@@ -16,5 +16,5 @@ def good_iteration():
         print(f'{i + 1}: {flavor}')
 
 
-bad_iterate()
+bad_iteration()
 good_iteration()
