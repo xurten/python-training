@@ -1,4 +1,4 @@
-# Tip 7 Use enumarate instead of range method
+# Tip 7 Use enumerate instead of range method
 
 flavor_list = ['vanilla', 'chocolate', 'hazelnut', 'strawberry']
 
