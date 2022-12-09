@@ -1,4 +1,4 @@
-# Tip 27 use list comprehantion instead of map() and filter()
+# Tip 27 use list comprehension instead of map() and filter()
 
 # examples for list
 numbers = [1, 2, 3, 4, 5, 6, 7]
