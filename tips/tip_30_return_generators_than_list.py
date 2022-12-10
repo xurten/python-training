@@ -2,10 +2,12 @@
 import itertools
 import os
 import string
+import timeit
 from random import Random
 
 STRING_LENGTH = 1000000
 FILE_NAME = 'file.txt'
+
 
 def index_words(text):
     result = []
@@ -65,3 +67,8 @@ def open_with_iter():
 
 
 open_with_iter()
+
+baseline = timeit.timeit(stmt='index_words(large_string)', globals=globals(), number=40)
+print(f'Without iterator {baseline:f} s')
+comparison = timeit.timeit(stmt='index_words_iter(large_string)', globals=globals(), number=40)
+print(f'With iterator {comparison:f} s')
