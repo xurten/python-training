@@ -3,5 +3,7 @@ Python training
 - script for training python features
 - tips folder contains python tips:
 
-![Zrzut ekranu 2022-12-17 o 14 00 15](https://user-images.githubusercontent.com/7273568/208243095-8a2c3b2b-4e3b-4066-9542-601ec5a59117.png)
+![image](https://user-images.githubusercontent.com/7273568/211624330-cbbd82a4-5899-419b-b237-af7e2fd75aa1.png)
+![image](https://user-images.githubusercontent.com/7273568/211624404-f4f3e913-cb29-4207-845b-ea830847b7a1.png)
+
 
