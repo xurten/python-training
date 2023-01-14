@@ -1,4 +1,4 @@
-# the property class
+# Python example with the property class
 
 class Car:
     def __init__(self, name):
@@ -22,7 +22,7 @@ class NewCar:
         return self._name
 
 
-red_car = Car('Red')
-print(red_car.name)
-
-print(help(Car))
+if __name__ == '__main__':
+    red_car = Car('Red')
+    print(red_car.name)
+    print(help(Car))
