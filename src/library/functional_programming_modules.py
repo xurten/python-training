@@ -1,6 +1,7 @@
 from itertools import count, cycle, dropwhile, filterfalse, permutations, repeat
 from more_itertools.more import repeat_each
 
+
 # itertools
 # make an iterator
 # https://pypi.org/project/more-itertools/
@@ -48,9 +49,10 @@ def repeat_example():
 
 
 if __name__ == '__main__':
+    pass
     # count_example()
     # cycle_example()
     # dropwhile_example()
     # filter_false_example()
     # permutations_example()
-    #list_example()
+    # list_example()
