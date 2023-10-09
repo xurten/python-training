@@ -1,10 +1,10 @@
-import multiprocessing_examples
+import multiprocessing
 
 
 class Counter:
     def __init__(self):
-        self.value = multiprocessing_examples.Value('i', 0)
-        self.lock = multiprocessing_examples.Lock()
+        self.value = multiprocessing.Value('i', 0)
+        self.lock = multiprocessing.Lock()
 
     def increment(self):
         with self.lock:
@@ -24,7 +24,7 @@ def main():
     processes = []
 
     for _ in range(num_processes):
-        process = multiprocessing_examples.Process(target=worker, args=(counter, iterations_per_process))
+        process = multiprocessing.Process(target=worker, args=(counter, iterations_per_process))
         processes.append(process)
         process.start()
 

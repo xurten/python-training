@@ -18,4 +18,4 @@ if __name__ == '__main__':
     items = ['tango', 'foxtrot', 'lima']
 
     for item in items:
-        Process(target=printer, args=(item, lock)).start()
+         Process(target=printer, args=(item, lock)).start()
