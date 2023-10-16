@@ -1,5 +1,5 @@
-import pytest
 # 2. Open-Closed Principle (OCP):
+
 # Description:
 # The Open-Closed Principle (OCP) states that software entities (such as classes, modules, functions, etc.)
 #                                 should be open for extension but closed for modification.
