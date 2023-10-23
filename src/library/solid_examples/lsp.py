@@ -1,4 +1,6 @@
 import abc
+
+
 # 3. Liskov Substitution Principle (LSP):
 
 # Description:
@@ -37,7 +39,6 @@ class Penguin(Bird):
 
 def bird_action(bird):
     bird.fly()
-
 
 # bird = Bird()
 # bird_action(bird)
