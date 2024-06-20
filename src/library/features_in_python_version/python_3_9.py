@@ -1,12 +1,15 @@
 # whats new in python3 all in all https://python-future.org/compatible_idioms.html
 # https://www.linkedin.com/learning/first-look-python-3-9/
+import logging
+
+logger = logging.getLogger(__name__)
+
 
 def merge_two_dictionaries():
     first_dictionary = {1: 'aaaa'}
     second_dictionary = {2: 'bbbb'}
-    # merge two dictionaries
     first_dictionary.update(second_dictionary)
-    print(first_dictionary)
+    logger.error(f'Merge of two dictionaries: {first_dictionary}')
 
 
 def new_string_methods():
