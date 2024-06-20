@@ -1,9 +1,3 @@
-# When use tuple ?
-
-
-"""
-   Return Multiple Values from a Function
-"""
 from collections import namedtuple
 
 

@@ -5,7 +5,7 @@
 # 3) need of extending it
 import logging
 
-from src.library.error_handling import mymodule
+from src.library.error_handling import my_module
 
 
 def example():
