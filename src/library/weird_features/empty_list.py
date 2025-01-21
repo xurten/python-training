@@ -1,3 +1,4 @@
+# mutable arguments
 def append_to_list[T](value: T, my_list: list[T]= []) -> list[T]:
     my_list.append(value)
     return my_list
