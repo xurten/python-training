@@ -1,7 +1,7 @@
 import unittest
 from unittest.mock import patch, MagicMock
 
-from src.library.mock.joke_example import len_joke, get_joke
+from library.mock import len_joke, get_joke
 
 
 class TestJoke(unittest.TestCase):

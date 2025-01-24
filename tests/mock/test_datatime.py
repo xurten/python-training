@@ -1,7 +1,7 @@
 import unittest
 from unittest import TestCase
 
-from src.library.mock.datetime_example import tuesday, saturday, is_weekday, datetime_mock
+from library.mock import tuesday, saturday, is_weekday, datetime_mock
 
 
 class TestCalendar(TestCase):

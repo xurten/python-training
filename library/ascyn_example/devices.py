@@ -1,6 +1,6 @@
 import asyncio
 
-from src.library.ascyn_example.message import MessageType
+from library.ascyn_example.message import MessageType
 
 
 class PowerDevice:
